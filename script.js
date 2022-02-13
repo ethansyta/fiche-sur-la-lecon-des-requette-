@@ -43,3 +43,13 @@ header:{
 
     body : json.stingify(JSONbody)
 });
+
+
+****
+
+    XMLHttpRequest
+
+let request = new XMLHttpRequest();
+request.open("GET", "URL");
+request.reponseType = "JSON";
+request.send();
